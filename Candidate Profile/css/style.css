@@ -1,0 +1,242 @@
+body {
+  background: rgb(204,204,204); 
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="A4"] {  
+  width: 21cm;
+  height: 24.7cm; 
+}
+
+.profile_content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.page_left {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 100%;
+}
+
+.page_left_top {
+  width: 100%;
+  height: 30%;
+  margin-top: 20px;
+}
+
+img {
+  max-width: 110px;
+  max-height: 105px;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-left: 70px;
+  width: 100%;
+  height: auto;
+}
+
+.name {
+  font-family: 'Cabin';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.name_block {
+  text-align: center;
+}
+
+.name_block > h2 {
+  margin-top: 10px;
+  margin-left: 18px;
+  color: #334680;
+}
+
+.name_block > h4 {
+  font-family: cabin;
+  font-size: 15px;
+  margin-left: 15px;
+  color: rgba(20, 52, 150, 0.6);
+}
+
+.page_left_bottom {
+  margin-top: 5px;
+  width: 100%;
+  height: 70%;
+}
+
+.profile_details {
+  margin-left: 24px;
+  padding-top: 20px;
+}
+
+.details_block {
+  margin-left:10px;
+}
+
+.text_block {
+  color: rgba(12, 48, 153, 1);
+  font-weight: bold;
+  font-family: 'Cabin';
+  font-size: 12px;
+}
+
+i {
+  color: rgba(138, 149, 181, 0.5);
+  width: 20px;
+}
+
+.width_10 {
+  width: 10px;
+}
+
+.line_block {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(138, 149, 181, 0.2);
+}
+
+.line_block_right {
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(138, 149, 181, 0.2);
+}
+
+.button_block {
+  margin-top: 35px;
+  margin-left: 15px;
+}
+
+.button {
+  background-color: #367cff;
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.page_right {
+  padding-left: 20px;
+  padding-right: 40px;
+  width:70%;
+  height:100%;
+}
+
+.summary {
+  padding-bottom: 20px;
+}
+
+.summary > h2 {
+  margin-top: 30px;
+  color: #334680;
+}
+
+.summary > p {
+  text-align: left;
+  color: rgba(20, 52, 150, 0.5);
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.5;
+  font-family: 'Cabin';
+}
+
+.experience {
+  padding: 20px 0;
+}
+
+.experience > h2 {
+  margin-top: 5px;
+  color: #334680;
+}
+
+.education {
+  padding: 20px 0;
+}
+
+.label {
+  background-color: #d7ffe0;
+  color: rgba(20, 52, 150, 0.9);
+  padding: 5px 10px;
+  border-radius: 50px;
+  font-size: 12px;
+}
+
+.position {
+  color: rgba(20, 52, 150, 0.7);
+  font-weight: bold;
+  font-family: cabin;
+  font-size: 16px;
+}
+
+.experience_details {
+  margin-top: 15px;
+}
+
+.experience_content {
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.text_content {
+  font-family: 'Cabin';
+  font-size: 10px;
+  font-weight: bold;
+  color: rgba(138, 149, 181, 0.7);
+}
+
+.padding_left_30 {
+  padding-left: 30px;
+}
+
+.padding_left_45 {
+  padding-left: 45px;
+}
+
+.padding_left_60 {
+  padding-left: 60px;
+}
+
+.padding_left_240 {
+  padding-left: 240px;
+}
+
+.padding_left_172 {
+  padding-left: 172px;
+}
+
+.padding_left_171 {
+  padding-left: 171px;
+}
+
+.padding_left_143 {
+  padding-left: 143px;
+}
+
+.margin_left_235 {
+  margin-left: 235px;
+}
+
+.margin_left_238 {
+  margin-left: 238px;
+}
+
+.margin_left_305 {
+  margin-left: 305px;
+}
+
+.education > h2 {
+  margin-top: 5px;
+  color: #334680;
+}
