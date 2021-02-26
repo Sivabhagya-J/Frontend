@@ -1,5 +1,6 @@
 body {
   background: rgb(204,204,204); 
+  font-family: cabin;
 }
 
 page {
@@ -45,7 +46,6 @@ img {
 }
 
 .name {
-  font-family: 'Cabin';
   font-size: 25px;
   font-weight: bold;
 }
@@ -61,7 +61,6 @@ img {
 }
 
 .name_block > h4 {
-  font-family: cabin;
   font-size: 15px;
   margin-left: 15px;
   color: rgba(20, 52, 150, 0.6);
@@ -85,7 +84,6 @@ img {
 .text_block {
   color: rgba(12, 48, 153, 1);
   font-weight: bold;
-  font-family: 'Cabin';
   font-size: 12px;
 }
 
@@ -149,7 +147,6 @@ i {
   font-size: 13px;
   font-weight: bold;
   line-height: 1.5;
-  font-family: 'Cabin';
 }
 
 .experience {
@@ -168,7 +165,7 @@ i {
 .label {
   background-color: #d7ffe0;
   color: rgba(20, 52, 150, 0.9);
-  padding: 5px 10px;
+  padding: 5px 15px;
   border-radius: 50px;
   font-size: 12px;
 }
@@ -176,8 +173,9 @@ i {
 .position {
   color: rgba(20, 52, 150, 0.7);
   font-weight: bold;
-  font-family: cabin;
   font-size: 16px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .experience_details {
@@ -190,7 +188,6 @@ i {
 }
 
 .text_content {
-  font-family: 'Cabin';
   font-size: 10px;
   font-weight: bold;
   color: rgba(138, 149, 181, 0.7);
@@ -204,39 +201,11 @@ i {
   padding-left: 45px;
 }
 
-.padding_left_60 {
-  padding-left: 60px;
-}
-
-.padding_left_240 {
-  padding-left: 240px;
-}
-
-.padding_left_172 {
-  padding-left: 172px;
-}
-
-.padding_left_171 {
-  padding-left: 171px;
-}
-
-.padding_left_143 {
-  padding-left: 143px;
-}
-
-.margin_left_235 {
-  margin-left: 235px;
-}
-
-.margin_left_238 {
-  margin-left: 238px;
-}
-
-.margin_left_305 {
-  margin-left: 305px;
-}
-
 .education > h2 {
   margin-top: 5px;
   color: #334680;
+}
+
+.float-right {
+  float: right;
 }
