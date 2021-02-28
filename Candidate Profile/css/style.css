@@ -92,10 +92,6 @@ i {
   width: 20px;
 }
 
-.width_10 {
-  width: 10px;
-}
-
 .line_block {
   margin-top: 20px;
   border-bottom: 1px solid rgba(138, 149, 181, 0.2);
@@ -180,6 +176,17 @@ i {
 
 .experience_details {
   margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience_details .fa-map-marker {
+  width: 15px !important;
+}
+
+.experience_details div, .experience_details span {
+  display: flex;
+  align-items: center;
 }
 
 .experience_content {
@@ -204,8 +211,4 @@ i {
 .education > h2 {
   margin-top: 5px;
   color: #334680;
-}
-
-.float-right {
-  float: right;
 }
