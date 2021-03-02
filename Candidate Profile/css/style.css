@@ -10,6 +10,8 @@
   --paleblue: #7d8dbd;
   --palegreen: #d7ffe0;
   --white: #ffffff;
+  --black: 0,0,0;
+  --Gray54: 138, 149, 181;
 }
 
 body {
@@ -22,7 +24,7 @@ page {
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  box-shadow: 0 0 0.5cm rgba(var(--black),0.5);
 }
 
 page[size="A4"] {  
@@ -108,12 +110,12 @@ i {
 
 .line_block {
   padding-top: 15px;
-  border-bottom: 1px solid rgba(138, 149, 181, 0.2);
+  border-bottom: 1px solid rgba(var(--Gray54), 0.2);
 }
 
 .line_block_right {
   padding-top: 30px;
-  border-bottom: 1px solid rgba(138, 149, 181, 0.2);
+  border-bottom: 1px solid rgba(var(--Gray54), 0.2);
 }
 
 .button_block {
