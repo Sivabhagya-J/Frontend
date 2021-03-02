@@ -18,7 +18,7 @@ body {
 }
 
 page {
-  background: white;
+  background: var(--white);
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5cm;
@@ -54,7 +54,7 @@ img {
   max-height: 130px;
   border-radius: 50%;
   margin-top: 25px;
-  margin-left: 70px;
+  margin-left: 55px;
   width: 100%;
   height: auto;
 }
